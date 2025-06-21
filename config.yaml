@@ -1,0 +1,19 @@
+openai:
+  api_key: "${OPENAI_API_KEY}"
+
+paths:
+  cache_dir: "cache"
+  output_dir: "output"
+  mismatch_csv: "output/mismatches.csv"
+
+sampling:
+  ratio: 0.05
+  seed: 1
+
+similarity:
+  model: "text-embedding-3-small"
+  threshold: 0.60
+
+score_bands:
+  green: 0.90
+  amber: 0.75

@@ -1,0 +1,16 @@
+# crewai core framework
+crewai>=0.6.0
+# LLM + Embeddings
+openai>=1.13
+# HTTP / scraping
+requests>=2.31
+tqdm>=4.66
+# Data wrangling
+pandas>=2.2
+numpy>=1.26
+# PDF parsing
+pdfminer.six>=20221105
+# Text processing
+regex>=2024.4
+# YAML config
+PyYAML>=6.0
